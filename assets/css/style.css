@@ -1017,3 +1017,14 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+
+.btn{
+  color: white;
+  background-color: #D43076;
+}
+
+.btn:hover{
+  color: #345676;
+  background-color: #D43076;
+}
