@@ -488,6 +488,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #2c4964;
+  font-size: 15px;
 }
 .skills .progress .skill .val {
   float: right;
@@ -746,6 +747,7 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
+
 .portfolio-details .portfolio-details-slider img {
   width: 80%;
   height: 80%;
@@ -753,6 +755,15 @@ section {
   margin-right: 20%;
   margin-bottom: 35px;
 }
+
+.swiper-slide img.custom-size {
+  width: 60%;
+  height: auto;
+  margin-left: 17%;
+  margin-right: 20%;
+  margin-bottom: 35px;
+}
+
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 15px;
   position: relative;
@@ -1019,7 +1030,7 @@ section {
   font-size: 13px;
 }
 
-
+/* Dit is bij de Download cv butoon om deze roos te krijgen.*/
 .btn{
   color: white;
   background-color: #D43076;
@@ -1029,3 +1040,8 @@ section {
   color: #345676;
   background-color: #D43076;
 }
+
+.bachelorDown:hover{
+  color: #2c4964;
+}
+
